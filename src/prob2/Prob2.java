@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class Prob2 {
 	public static void main(String[] args) {
 		System.out.print("금액:");
+		
 		Scanner sc = new Scanner(System.in);
+		
 		int cost = sc.nextInt();
 		int[] price = new int[9];
 		int div = 50000;
